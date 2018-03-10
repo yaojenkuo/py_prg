@@ -11959,40 +11959,6 @@ a.anchor-link {
 
 </div>
 </div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#20351;&#29992;-type()-&#20358;&#21028;&#26039;&#36039;&#26009;&#22411;&#21029;">&#20351;&#29992; <code>type()</code> &#20358;&#21028;&#26039;&#36039;&#26009;&#22411;&#21029;<a class="anchor-link" href="#&#20351;&#29992;-type()-&#20358;&#21028;&#26039;&#36039;&#26009;&#22411;&#21029;">&#182;</a></h2><table>
-<thead><tr>
-<th>資料型別</th>
-<th>範例</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>float</td>
-<td><code>type(8.7)</code></td>
-</tr>
-<tr>
-<td>int</td>
-<td><code>type(87)</code></td>
-</tr>
-<tr>
-<td>bool</td>
-<td><code>type(8 &gt; 7)</code></td>
-</tr>
-<tr>
-<td>str</td>
-<td><code>type("Python")</code></td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -12052,6 +12018,7 @@ a.anchor-link {
 <li><code>*=</code></li>
 <li><code>/=</code></li>
 <li><code>%=</code></li>
+<li><code>//=</code></li>
 </ul>
 
 </div>
@@ -12063,6 +12030,11 @@ a.anchor-link {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#21028;&#26039;&#36939;&#31639;&#31526;&#34399;">&#21028;&#26039;&#36939;&#31639;&#31526;&#34399;<a class="anchor-link" href="#&#21028;&#26039;&#36939;&#31639;&#31526;&#34399;">&#182;</a></h2><ul>
+<li>布林值只有兩個值：<ul>
+<li><code>True</code></li>
+<li><code>False</code></li>
+</ul>
+</li>
 <li>可以產生布林值的判斷運算符號</li>
 </ul>
 <table>
@@ -12312,6 +12284,40 @@ luke skywalker
 
 </div>
 </div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#20351;&#29992;-type()-&#20358;&#21028;&#26039;&#36039;&#26009;&#22411;&#21029;">&#20351;&#29992; <code>type()</code> &#20358;&#21028;&#26039;&#36039;&#26009;&#22411;&#21029;<a class="anchor-link" href="#&#20351;&#29992;-type()-&#20358;&#21028;&#26039;&#36039;&#26009;&#22411;&#21029;">&#182;</a></h2><table>
+<thead><tr>
+<th>資料型別</th>
+<th>範例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>float</td>
+<td><code>type(8.7)</code></td>
+</tr>
+<tr>
+<td>int</td>
+<td><code>type(87)</code></td>
+</tr>
+<tr>
+<td>bool</td>
+<td><code>type(8 &gt; 7)</code></td>
+</tr>
+<tr>
+<td>str</td>
+<td><code>type("Python")</code></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -12364,6 +12370,18 @@ luke skywalker
 </div>
 </div>
 
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#38568;&#22530;&#32244;&#32722;">&#38568;&#22530;&#32244;&#32722;<a class="anchor-link" href="#&#38568;&#22530;&#32244;&#32722;">&#182;</a></h2><ul>
+<li>把上一張投影片的 Error 修正好</li>
+</ul>
+
+</div>
+</div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -12384,13 +12402,11 @@ luke skywalker
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#38568;&#22530;&#32244;&#32722;">&#38568;&#22530;&#32244;&#32722;<a class="anchor-link" href="#&#38568;&#22530;&#32244;&#32722;">&#182;</a></h2><ul>
-<li>在 Jupyter Notebook 計算自己的 BMI</li>
+<li>跟自己說聲嗨</li>
 </ul>
-$$BMI = \frac{weight_{kg}}{height_{m}^2}$$<div class="highlight"><pre><span></span><span class="n">height</span> <span class="o">=</span> <span class="n">___</span>
-<span class="n">weight</span> <span class="o">=</span> <span class="n">___</span>
-<span class="n">bmi</span> <span class="o">=</span> <span class="n">___</span>
-
-<span class="k">print</span><span class="p">(</span><span class="n">bmi</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="n">my_name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Let me know your name:&quot;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Hi {}!&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">___</span><span class="p">))</span>
+<span class="c1"># print(&quot;Hi %s!&quot; % ___)</span>
 </pre></div>
 
 </div>
@@ -12402,11 +12418,29 @@ $$BMI = \frac{weight_{kg}}{height_{m}^2}$$<div class="highlight"><pre><span></sp
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#38568;&#22530;&#32244;&#32722;">&#38568;&#22530;&#32244;&#32722;<a class="anchor-link" href="#&#38568;&#22530;&#32244;&#32722;">&#182;</a></h2><ul>
-<li>跟自己說聲嗨</li>
+<li>印出自己的幸運數字</li>
 </ul>
-<div class="highlight"><pre><span></span><span class="n">my_name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span>
-<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Hi {}!&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">___</span><span class="p">))</span>
-<span class="c1"># print(&quot;Hi %s!&quot; % ___)</span>
+<div class="highlight"><pre><span></span><span class="n">my_lucky_num</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Let me know your lucky number:&quot;</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;My lucky number is {}!&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">___</span><span class="p">))</span>
+<span class="c1"># print(&quot;My lucky number is %s!&quot; % ___)</span>
+</pre></div>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#20316;&#26989;&#19968;">&#20316;&#26989;&#19968;<a class="anchor-link" href="#&#20316;&#26989;&#19968;">&#182;</a></h2><ul>
+<li>計算自己的 BMI</li>
+</ul>
+$$BMI = \frac{weight_{kg}}{height_{m}^2}$$<div class="highlight"><pre><span></span><span class="n">height</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="n">___</span><span class="p">)</span>
+<span class="n">weight</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="n">___</span><span class="p">)</span>
+<span class="n">bmi</span> <span class="o">=</span> <span class="n">___</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">bmi</span><span class="p">)</span>
 </pre></div>
 
 </div>
