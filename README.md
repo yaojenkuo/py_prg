@@ -19,7 +19,7 @@
 
 ### 課程大綱
 
-- [建立開發環境](http://yaojenkuo.io/pr_prg/dev_env.slides.html)
+- [建立開發環境](http://yaojenkuo.io/py_prg/dev_env.slides.html)
 - [變數型別](http://yaojenkuo.io/py_prg/variable_types.slides.html)
 - [資料結構](https://yaojenkuo.github.io/python_4_ds/data_structure.slides.html)
 - [流程控制](https://yaojenkuo.github.io/python_4_ds/control_statement.slides.html)
