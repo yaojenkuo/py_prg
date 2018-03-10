@@ -48,3 +48,5 @@
 - [Learn Python the Hard Way](https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0321884914)
 
 ### 近期課程錄影清單
+
+- [295 期 Python 程式設計（假日下午班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuVT07u5CS2-RPDhBBVpRYUv)
