@@ -19,9 +19,9 @@
 
 ### 課程大綱
 
-- [建立開發環境](https://yaojenkuo.github.io/pr_prg/dev_env.slides.html)
-- [變數型別](https://yaojenkuo.github.io/pr_prg/variable_types.slides.html)
-- [資料結構](https://yaojenkuo.github.io/pr_prg/data_structure.slides.html)
+- [建立開發環境](http://yaojenkuo.io/pr_prg/dev_env.slides.html)
+- [變數型別](http://yaojenkuo.io/py_prg/variable_types.slides.html)
+- [資料結構](https://yaojenkuo.github.io/python_4_ds/data_structure.slides.html)
 - [流程控制](https://yaojenkuo.github.io/python_4_ds/control_statement.slides.html)
 - [迴圈](https://yaojenkuo.github.io/python_4_ds/loop.slides.html)
 - [自訂函數](https://yaojenkuo.github.io/python_4_ds/function.slides.html)
