@@ -12,7 +12,7 @@
 |作業編號|作業連結|作業分數|
 |-------|------|-------|
 |作業 0|<http://yaojenkuo.io/py_prg/variable_types.slides.html#/11>|20|
-|作業 1|||
+|作業 1|<http://yaojenkuo.io/py_prg/data_structure.slides.html#/7>|20|
 |作業 2|||
 |作業 3|||
 |作業 4|||
@@ -21,7 +21,7 @@
 
 - [建立開發環境](http://yaojenkuo.io/py_prg/dev_env.slides.html)
 - [變數型別](http://yaojenkuo.io/py_prg/variable_types.slides.html)
-- [資料結構](http://yaojenkuo.io/py_prg/data_structure.slides.html)
+- [資料結構](http://yaojenkuo.io/py_prg/data_structures.slides.html)
 - [流程控制](https://yaojenkuo.github.io/python_4_ds/control_statement.slides.html)
 - [迴圈](https://yaojenkuo.github.io/python_4_ds/loop.slides.html)
 - [自訂函數](https://yaojenkuo.github.io/python_4_ds/function.slides.html)
