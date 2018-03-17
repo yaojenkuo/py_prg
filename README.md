@@ -12,8 +12,8 @@
 |作業編號|作業連結|作業分數|
 |-------|------|-------|
 |作業 0|<http://yaojenkuo.io/py_prg/variable_types.slides.html#/11>|20|
-|作業 1|<http://yaojenkuo.io/py_prg/data_structures.slides.html#/7>|20|
-|作業 2|||
+|作業 1|<http://yaojenkuo.io/py_prg/for_loop.slides.html#/7>|40|
+|作業 2|<http://yaojenkuo.io/py_prg/data_structures_dict_set.slides.html#/7>|20|
 |作業 3|||
 |作業 4|||
 
@@ -25,8 +25,8 @@
 - [函數](http://yaojenkuo.io/py_prg/function.slides.html)
 - [資料結構：list、tuple](http://yaojenkuo.io/py_prg/data_structures_list_tuple.slides.html)
 - [for 迴圈](http://yaojenkuo.io/py_prg/for_loop.slides.html)
-- [資料結構：dict、set]()
-- [while 迴圈](https://yaojenkuo.github.io/python_4_ds/loop.slides.html)
+- [資料結構：dict、set](http://yaojenkuo.io/py_prg/data_structures_dict_set.slides.html)
+- [while 迴圈]()
 - [自訂函數]()
 - [模組與套件](https://yaojenkuo.github.io/python_4_ds/module.slides.html)
 - [類別](https://yaojenkuo.github.io/pr_prg/class.slides.html)
