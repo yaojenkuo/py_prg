@@ -12,8 +12,8 @@
 |作業編號|作業連結|作業分數|
 |-------|------|-------|
 |作業 0|<http://yaojenkuo.io/py_prg/variable_types.slides.html#/11>|20|
-|作業 1|<http://yaojenkuo.io/py_prg/for_loop.slides.html#/7>|40|
-|作業 2|<http://yaojenkuo.io/py_prg/data_structures_dict_set.slides.html#/7>|20|
+|作業 1|<http://yaojenkuo.io/py_prg/for_loop.slides.html#/6>|40|
+|作業 2|<http://yaojenkuo.io/py_prg/data_structures_dict_set.slides.html#/3>|20|
 |作業 3|||
 |作業 4|||
 
