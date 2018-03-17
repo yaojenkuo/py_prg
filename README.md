@@ -21,10 +21,13 @@
 
 - [建立開發環境](http://yaojenkuo.io/py_prg/dev_env.slides.html)
 - [變數型別](http://yaojenkuo.io/py_prg/variable_types.slides.html)
-- [資料結構](http://yaojenkuo.io/py_prg/data_structures.slides.html)
-- [流程控制](https://yaojenkuo.github.io/python_4_ds/control_statement.slides.html)
-- [迴圈](https://yaojenkuo.github.io/python_4_ds/loop.slides.html)
-- [自訂函數](https://yaojenkuo.github.io/python_4_ds/function.slides.html)
+- [流程控制](http://yaojenkuo.io/py_prg/control_statement.slides.html)
+- [函數](http://yaojenkuo.io/py_prg/function.slides.html)
+- [資料結構：list、tuple](http://yaojenkuo.io/py_prg/data_structures_list_tuple.slides.html)
+- [for 迴圈](http://yaojenkuo.io/py_prg/for_loop.slides.html)
+- [資料結構：dict、set]()
+- [while 迴圈](https://yaojenkuo.github.io/python_4_ds/loop.slides.html)
+- [自訂函數]()
 - [模組與套件](https://yaojenkuo.github.io/python_4_ds/module.slides.html)
 - [類別](https://yaojenkuo.github.io/pr_prg/class.slides.html)
 
