@@ -12091,12 +12091,75 @@ $$\bar{x} = \frac{\displaystyle\sum_{i=1}^{n}xi}{n}$$
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#25991;&#23383;&#20063;-iterable">&#25991;&#23383;&#20063; iterable<a class="anchor-link" href="#&#25991;&#23383;&#20063;-iterable">&#182;</a></h2><div class="highlight"><pre><span></span><span class="n">luke</span> <span class="o">=</span> <span class="s2">&quot;Luke Skywalker&quot;</span>
+<span class="n">upper_case</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+<span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">luke</span><span class="p">:</span>
+    <span class="n">upper_case</span> <span class="o">+=</span> <span class="n">s</span><span class="o">.</span><span class="n">upper</span>
+<span class="n">upper_case</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">luke</span> <span class="o">=</span> <span class="s2">&quot;Luke Skywalker&quot;</span>
+<span class="n">LUKE</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+<span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">luke</span><span class="p">:</span>
+    <span class="n">LUKE</span> <span class="o">+=</span> <span class="n">s</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
+<span class="n">LUKE</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">Out[5]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;LUKE SKYWALKER&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#38568;&#22530;&#32244;&#32722;">&#38568;&#22530;&#32244;&#32722;<a class="anchor-link" href="#&#38568;&#22530;&#32244;&#32722;">&#182;</a></h2><ul>
-<li>計算字串中英文字母的母音個數</li>
+<li>計算字串英文字母的母音（a, e, i, o, u）個數</li>
 <li>舉例而來說如果使用者輸入 'azcbobobegghakl'，應該印出：</li>
 </ul>
 
 <pre><code>Number of vowels: 5</code></pre>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#38568;&#22530;&#32244;&#32722;">&#38568;&#22530;&#32244;&#32722;<a class="anchor-link" href="#&#38568;&#22530;&#32244;&#32722;">&#182;</a></h2><ul>
+<li>計算字串裡面 'bob' 出現的次數</li>
+<li>舉例而來說如果使用者輸入 'azcbobobegghakl'，應該印出：</li>
+</ul>
+
+<pre><code>Number of times bob occurs is: 2</code></pre>
 
 </div>
 </div>
@@ -12115,7 +12178,7 @@ $$\bar{x} = \frac{\displaystyle\sum_{i=1}^{n}xi}{n}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">favorite_players</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Hakeem Olajuwon&#39;</span><span class="p">,</span> <span class="s1">&#39;Kevin Garnett&#39;</span><span class="p">,</span> <span class="s1">&#39;Paul Pierce&#39;</span><span class="p">,</span> <span class="s1">&#39;Michael Jordan&#39;</span><span class="p">,</span> <span class="s1">&#39;Steve Nash&#39;</span><span class="p">]</span>
@@ -12170,7 +12233,7 @@ $$\bar{x} = \frac{\displaystyle\sum_{i=1}^{n}xi}{n}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">favorite_players</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Hakeem Olajuwon&#39;</span><span class="p">,</span> <span class="s1">&#39;Kevin Garnett&#39;</span><span class="p">,</span> <span class="s1">&#39;Paul Pierce&#39;</span><span class="p">,</span> <span class="s1">&#39;Michael Jordan&#39;</span><span class="p">,</span> <span class="s1">&#39;Steve Nash&#39;</span><span class="p">]</span>
@@ -12216,7 +12279,7 @@ $$\bar{x} = \frac{\displaystyle\sum_{i=1}^{n}xi}{n}$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">jersey_numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">34</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">34</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">13</span><span class="p">]</span>
@@ -12251,7 +12314,7 @@ $$\bar{x} = \frac{\displaystyle\sum_{i=1}^{n}xi}{n}$$
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">jersey_numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">34</span><span class="p">,</span> <span class="mi">21</span><span class="p">,</span> <span class="mi">34</span><span class="p">,</span> <span class="mi">23</span><span class="p">,</span> <span class="mi">13</span><span class="p">]</span>
