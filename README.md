@@ -14,7 +14,7 @@
 |作業 0|<http://yaojenkuo.io/py_prg/variable_types.slides.html#/11>|20|
 |作業 1|<http://yaojenkuo.io/py_prg/for_loop.slides.html#/6>|40|
 |作業 2|<http://yaojenkuo.io/py_prg/data_structures_dict_set.slides.html#/3>|20|
-|作業 3||30|
+|作業 3|<http://yaojenkuo.io/py_prg/function_adv.slides.html#/2>|30|
 |作業 4|||
 
 ### 課程大綱
