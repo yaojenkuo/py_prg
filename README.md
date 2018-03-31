@@ -28,7 +28,7 @@
 - [資料結構：dict、set](http://yaojenkuo.io/py_prg/data_structures_dict_set.slides.html)
 - [while 迴圈](http://yaojenkuo.io/py_prg/while_loop.slides.html)
 - [自訂函數](http://yaojenkuo.io/py_prg/function_adv.slides.html)
-- [模組與套件](https://yaojenkuo.github.io/python_4_ds/module.slides.html)
+- [模組](https://yaojenkuo.github.io/py_prg/modules.slides.html)
 - [類別](https://yaojenkuo.github.io/pr_prg/class.slides.html)
 
 ### 學習資源
