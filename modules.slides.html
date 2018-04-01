@@ -12016,7 +12016,10 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#35387;&#20874;&#24115;&#34399;">&#35387;&#20874;&#24115;&#34399;<a class="anchor-link" href="#&#35387;&#20874;&#24115;&#34399;">&#182;</a></h2><p><a href="https://pypi.org/account/register/">https://pypi.org/account/register/</a></p>
+<h2 id="&#35387;&#20874;&#24115;&#34399;">&#35387;&#20874;&#24115;&#34399;<a class="anchor-link" href="#&#35387;&#20874;&#24115;&#34399;">&#182;</a></h2><ul>
+<li>測試環境：<a href="https://test.pypi.org/account/register/">https://test.pypi.org/account/register/</a></li>
+<li>正式環境：<a href="https://pypi.org/account/register/">https://pypi.org/account/register/</a></li>
+</ul>
 
 </div>
 </div>
@@ -12053,11 +12056,11 @@ password=your_password</code></pre>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#22871;&#20214;&#30340;&#32080;&#27083;">&#22871;&#20214;&#30340;&#32080;&#27083;<a class="anchor-link" href="#&#22871;&#20214;&#30340;&#32080;&#27083;">&#182;</a></h2><ul>
 <li>root-dir/   # 任意資料夾名稱<ul>
-<li>setup.py</li>
-<li>setup.cfg</li>
+<li>setup.py(必要)</li>
+<li>setup.cfg(必要)</li>
 <li>LICENSE.txt</li>
 <li>README.md</li>
-<li>casino/<ul>
+<li>casino/(必要)<ul>
 <li>__init__.py</li>
 <li>dice.py</li>
 <li>card.py</li>
@@ -12113,8 +12116,7 @@ description-file = README.md</code></pre>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#19978;&#20659;&#33267;-PyPI-&#28204;&#35430;&#29872;&#22659;">&#19978;&#20659;&#33267; PyPI &#28204;&#35430;&#29872;&#22659;<a class="anchor-link" href="#&#19978;&#20659;&#33267;-PyPI-&#28204;&#35430;&#29872;&#22659;">&#182;</a></h2>
-<pre><code>python setup.py register -r pypitest
-python setup.py sdist upload -r pypitest</code></pre>
+<pre><code>python setup.py sdist upload -r pypitest</code></pre>
 
 </div>
 </div>
@@ -12125,8 +12127,7 @@ python setup.py sdist upload -r pypitest</code></pre>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#19978;&#20659;&#33267;-PyPI-&#27491;&#24335;&#29872;&#22659;">&#19978;&#20659;&#33267; PyPI &#27491;&#24335;&#29872;&#22659;<a class="anchor-link" href="#&#19978;&#20659;&#33267;-PyPI-&#27491;&#24335;&#29872;&#22659;">&#182;</a></h2>
-<pre><code>python setup.py register -r pypi
-python setup.py sdist upload -r pypi</code></pre>
+<pre><code>python setup.py sdist upload -r pypi</code></pre>
 
 </div>
 </div>
@@ -12137,15 +12138,15 @@ python setup.py sdist upload -r pypi</code></pre>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#20316;&#26989;-4">&#20316;&#26989; 4<a class="anchor-link" href="#&#20316;&#26989;-4">&#182;</a></h2><ul>
-<li>建立一個套件：casino</li>
+<li>在本機建立一個套件：casino</li>
 <li>這個資料夾中新增三個檔案：<ul>
 <li>__init__.py（空白）</li>
 <li>dice.py</li>
-<li>card.py</li>
+<li>poker.py</li>
 </ul>
 </li>
 <li>dice 模組中定義一個 <code>roll_a_dice</code> 函數，可以回傳擲一粒骰子的點數</li>
-<li>card 模組中定義一個 <code>deal_a_card</code> 函數，可以回傳發一張撲克牌的花色點數</li>
+<li>poker 模組中定義一個 <code>deal_a_card</code> 函數，可以回傳發一張撲克牌的花色點數</li>
 </ul>
 
 </div>
@@ -12156,10 +12157,10 @@ python setup.py sdist upload -r pypi</code></pre>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">casino</span> <span class="kn">import</span> <span class="n">dice</span><span class="p">,</span> <span class="n">card</span>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">casino</span> <span class="kn">import</span> <span class="n">dice</span><span class="p">,</span> <span class="n">poker</span>
 
 <span class="k">print</span><span class="p">(</span><span class="n">dice</span><span class="o">.</span><span class="n">roll_a_dice</span><span class="p">())</span>
-<span class="k">print</span><span class="p">(</span><span class="n">card</span><span class="o">.</span><span class="n">deal_a_card</span><span class="p">())</span>
+<span class="k">print</span><span class="p">(</span><span class="n">poker</span><span class="o">.</span><span class="n">deal_a_card</span><span class="p">())</span>
 
 <span class="c1">## 6</span>
 <span class="c1">## &#39;Diamond Ace&#39;</span>
