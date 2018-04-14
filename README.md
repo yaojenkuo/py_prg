@@ -30,6 +30,8 @@
 - [自訂函數](http://yaojenkuo.io/py_prg/function_adv.slides.html)
 - [模組](https://yaojenkuo.github.io/py_prg/modules.slides.html)
 - [類別](https://yaojenkuo.github.io/pr_prg/class.slides.html)
+- [靜態網頁擷取](https://yaojenkuo.github.io/pr_prg/static_scraper.slides.html)
+- [動態網頁擷取](https://yaojenkuo.github.io/pr_prg/dynamic_scraper.slides.html)
 
 ### 學習資源
 
