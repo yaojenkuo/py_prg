@@ -59,4 +59,5 @@
 
 ### 近期課程錄影清單
 
+- [297 期 Python 程式設計（假日下午班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuXrd08rbahS9_wYlGwi8mOe)
 - [295 期 Python 程式設計（假日下午班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuVT07u5CS2-RPDhBBVpRYUv)
