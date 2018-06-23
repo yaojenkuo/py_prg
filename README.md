@@ -25,7 +25,7 @@
 |作業 3|<http://yaojenkuo.io/py_prg/function_adv.slides.html#/2>|30|
 |作業 4|<http://yaojenkuo.io/py_prg/modules.slides.html#/4>|40|
 |作業 5|<http://yaojenkuo.io/py_prg/dynamic_scraper.slides.html#/4>|50|
-|作業 6|[DataCamp: Intro to Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science)|70|
+|作業 6|[DataCamp: Intro to Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science?tap_a=5644-dce66f&tap_s=194899-1fb421)|70|
 |作業 7|[Codecademy: Learn Python](https://www.codecademy.com/learn/learn-python)|70|
 
 ### 課程大綱
