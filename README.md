@@ -8,6 +8,10 @@
 
 <https://www.sli.do/>
 
+### 上課使用的 Colab
+
+<https://drive.google.com/file/d/1TlueaVxpUdVxJLBfdSrVp6joF8BF39IM/view?usp=sharing>
+
 ### 評分標準
 
 - 70 分即可獲得證書，作業請寄至 tony@kyosei.ai，註明班別與姓名
