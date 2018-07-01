@@ -38,8 +38,8 @@
 - [資料結構：dict、set](http://yaojenkuo.io/py_prg/data_structures_dict_set.slides.html)
 - [while 迴圈](http://yaojenkuo.io/py_prg/while_loop.slides.html)
 - [自訂函數](http://yaojenkuo.io/py_prg/function_adv.slides.html)
-- [模組](https://yaojenkuo.github.io/py_prg/modules.slides.html)
 - [類別](https://yaojenkuo.github.io/py_prg/class.slides.html)
+- [模組](https://yaojenkuo.github.io/py_prg/modules.slides.html)
 - [靜態網頁擷取](https://yaojenkuo.github.io/py_prg/static_scraper.slides.html)
 - [動態網頁擷取](https://yaojenkuo.github.io/py_prg/dynamic_scraper.slides.html)
 
