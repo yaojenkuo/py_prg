@@ -45,6 +45,10 @@
 
 ### 學習資源
 
+#### 推薦書籍
+
+- [精通 Python：運用簡單的套件進行現代運算](https://www.books.com.tw/products/0010690075)
+
 #### 命令列
 
 - [Introduction to Shell](https://www.datacamp.com/courses/introduction-to-shell-for-data-science?tap_a=5644-dce66f&tap_s=194899-1fb421))
