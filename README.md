@@ -51,7 +51,7 @@
 
 #### 命令列
 
-- [Introduction to Shell](https://www.datacamp.com/courses/introduction-to-shell-for-data-science?tap_a=5644-dce66f&tap_s=194899-1fb421))
+- [Introduction to Shell](https://www.datacamp.com/courses/introduction-to-shell-for-data-science?tap_a=5644-dce66f&tap_s=194899-1fb421)
 
 #### 資料科學
 
