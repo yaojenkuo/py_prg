@@ -10,7 +10,7 @@
 
 ### 上課使用的 Colab
 
-<https://drive.google.com/file/d/1TlueaVxpUdVxJLBfdSrVp6joF8BF39IM/view?usp=sharing>
+<https://colab.research.google.com/drive/1OS_z78Jwe2onY8EmlxC6XSS-BGnmphw8>
 
 ### 評分標準
 
@@ -45,22 +45,14 @@
 
 ### 學習資源
 
-#### 關於命令列
+#### 命令列
 
-- [Learn the Command Line](https://www.codecademy.com/learn/learn-the-command-line)
+- [Introduction to Shell](https://www.datacamp.com/courses/introduction-to-shell-for-data-science?tap_a=5644-dce66f&tap_s=194899-1fb421))
 
-#### 關於開發環境
-
-- [Python 與資料科學入門：建立開發環境](https://www.udemy.com/intro-to-python-ds-1)
-- [Simple Python Version Management: pyenv](https://github.com/pyenv/pyenv)
-- [Anaconda](https://www.continuum.io/downloads)
-
-#### 延伸閱讀
+#### 資料科學
 
 - [Datainpoint](https://medium.com/datainpoint)
-- [Codecademy](https://www.codecademy.com/learn/learn-python)
-- [Introducing Python](http://shop.oreilly.com/product/0636920028659.do)
-- [Learn Python the Hard Way](https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0321884914)
+- [DataCamp](https://www.datacamp.com/courses/tech:python?tap_a=5644-dce66f&tap_s=194899-1fb421)
 
 ### 近期課程錄影清單
 
