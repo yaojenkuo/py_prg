@@ -10,11 +10,17 @@
 
 ### 上課使用的 Colab
 
-<https://colab.research.google.com/drive/1OS_z78Jwe2onY8EmlxC6XSS-BGnmphw8>
+<https://colab.research.google.com/drive/12xdMTVJwvIVwsMaUEFxpwanLpD1u-Fue>
+
+### Facebook 社團
+
+<https://www.facebook.com/groups/ntucsietrainpyds/>
 
 ### 評分標準
 
-- 70 分即可獲得證書，作業請寄至 tony@kyosei.ai，註明班別與姓名
+[作業上傳表單](https://goo.gl/forms/ys2SDJ0LhBH6Fhw32)
+
+- 70 分即可獲得證書
 - 作業繳交期限為課程結束後一週內，如遇長假期（春節、連假）則順延
 
 |作業編號|作業連結|作業分數|
