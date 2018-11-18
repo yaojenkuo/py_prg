@@ -16,6 +16,13 @@
 
 <https://www.facebook.com/groups/ntucsietrainpyds/>
 
+### Python 練習題庫
+
+<https://pyradise.codejudger.com/>
+
+帳號：Your EMAIL
+密碼：19911223
+
 ### 評分標準
 
 [作業上傳表單](https://goo.gl/forms/ys2SDJ0LhBH6Fhw32)
