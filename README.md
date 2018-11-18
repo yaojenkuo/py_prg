@@ -20,8 +20,8 @@
 
 <https://pyradise.codejudger.com/>
 
-帳號：Your EMAIL
-密碼：19911223
+- 帳號：Your EMAIL
+- 密碼：19911223
 
 ### 評分標準
 
