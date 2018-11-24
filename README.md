@@ -10,18 +10,21 @@
 
 ### 上課使用的 Colab
 
-<https://colab.research.google.com/drive/12xdMTVJwvIVwsMaUEFxpwanLpD1u-Fue>
+- [306 期假日下午班](https://colab.research.google.com/drive/1rTSaSFaO3HBYzYriV0PSWJhqaRCukaGg)
+- [305 期假日下午班](https://colab.research.google.com/drive/12xdMTVJwvIVwsMaUEFxpwanLpD1u-Fue)
 
 ### Facebook 社團
 
 <https://www.facebook.com/groups/ntucsietrainpyds/>
 
+<!--
 ### Python 練習題庫
 
 <https://pyradise.codejudger.com/>
 
 - 帳號：Your EMAIL
 - 密碼：19911223
+-->
 
 ### 評分標準
 
