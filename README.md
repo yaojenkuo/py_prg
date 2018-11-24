@@ -25,7 +25,8 @@
 
 ### 評分標準
 
-[作業上傳表單](https://goo.gl/forms/ys2SDJ0LhBH6Fhw32)
+- [306 期作業上傳表單](https://goo.gl/forms/y9aFoEk1HU4vUGdo1)
+- [305 期作業上傳表單](https://goo.gl/forms/ys2SDJ0LhBH6Fhw32)
 
 - 70 分即可獲得證書
 - 作業繳交期限為課程結束後一週內，如遇長假期（春節、連假）則順延
@@ -57,11 +58,13 @@
 - [靜態網頁擷取](https://yaojenkuo.github.io/py_prg/static_scraper.slides.html)
 - [動態網頁擷取](https://yaojenkuo.github.io/py_prg/dynamic_scraper.slides.html)
 
-### 學習資源
+### 延伸閱讀
 
 #### 推薦書籍
 
 - [精通 Python：運用簡單的套件進行現代運算](https://www.books.com.tw/products/0010690075)
+- [輕鬆學習 Python](https://www.datainpoint.com/python-essentials/)
+- [進擊的資料科學](https://www.datainpoint.com/data-science-in-action/)
 
 #### 命令列
 
@@ -69,7 +72,6 @@
 
 #### 資料科學
 
-- [Datainpoint](https://medium.com/datainpoint)
 - [DataCamp](https://www.datacamp.com/courses/tech:python?tap_a=5644-dce66f&tap_s=194899-1fb421)
 
 ### 近期課程錄影清單
