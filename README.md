@@ -10,6 +10,7 @@
 
 ### 上課使用的 Colab
 
+- [311 期三六夜間班]()
 - [306 期假日下午班](https://colab.research.google.com/drive/1rTSaSFaO3HBYzYriV0PSWJhqaRCukaGg)
 - [305 期假日下午班](https://colab.research.google.com/drive/12xdMTVJwvIVwsMaUEFxpwanLpD1u-Fue)
 
@@ -28,6 +29,7 @@
 
 ### 評分標準
 
+- [311 期作業上傳表單]()
 - [306 期作業上傳表單](https://goo.gl/forms/y9aFoEk1HU4vUGdo1)
 - [305 期作業上傳表單](https://goo.gl/forms/ys2SDJ0LhBH6Fhw32)
 
@@ -36,17 +38,16 @@
 
 |作業編號|作業連結|作業分數|
 |-------|------|-------|
-|作業 0|<http://yaojenkuo.io/py_prg/variable_types.slides.html#/11>|20|
+|作業 0|<http://yaojenkuo.io/py_prg/variable_types.slides.html#/11>|30|
 |作業 1|<http://yaojenkuo.io/py_prg/for_loop.slides.html#/6>|40|
-|作業 2|<http://yaojenkuo.io/py_prg/data_structures_dict_set.slides.html#/3>|20|
+|作業 2|<http://yaojenkuo.io/py_prg/data_structures_dict_set.slides.html#/3>|30|
 |作業 3|<http://yaojenkuo.io/py_prg/function_adv.slides.html#/2>|30|
 |作業 4|<http://yaojenkuo.io/py_prg/modules.slides.html#/4>|40|
 |作業 5|<http://yaojenkuo.io/py_prg/dynamic_scraper.slides.html#/4>|50|
-|作業 6|[Intro to Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science?tap_a=5644-dce66f&tap_s=194899-1fb421)|70|
-|作業 7|[Codecademy: Learn Python](https://www.codecademy.com/learn/learn-python)|70|
 
 ### 課程大綱
 
+- [（選修）技術基礎](technical_foundations.slides.html)
 - [建立開發環境](http://yaojenkuo.io/py_prg/dev_env.slides.html)
 - [變數型別](http://yaojenkuo.io/py_prg/variable_types.slides.html)
 - [流程控制](http://yaojenkuo.io/py_prg/control_statement.slides.html)
@@ -63,19 +64,10 @@
 
 ### 延伸閱讀
 
-#### 推薦書籍
-
-- [精通 Python：運用簡單的套件進行現代運算](https://www.books.com.tw/products/0010690075)
 - [輕鬆學習 Python](https://www.datainpoint.com/python-essentials/)
 - [進擊的資料科學](https://www.datainpoint.com/data-science-in-action/)
-
-#### 命令列
-
-- [Introduction to Shell](https://www.datacamp.com/courses/introduction-to-shell-for-data-science?tap_a=5644-dce66f&tap_s=194899-1fb421)
-
-#### 資料科學
-
 - [DataCamp](https://www.datacamp.com/courses/tech:python?tap_a=5644-dce66f&tap_s=194899-1fb421)
+- [精通 Python：運用簡單的套件進行現代運算](https://www.books.com.tw/products/0010690075)
 
 ### 近期課程錄影清單
 
