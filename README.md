@@ -10,7 +10,7 @@
 
 ### 上課使用的 Colab
 
-- [311 期三六夜間班]()
+- [311 期三六夜間班](https://colab.research.google.com/drive/1Q0YeoVA_72tvJoKBJ5as9RHwZS34MwNQ)
 - [306 期假日下午班](https://colab.research.google.com/drive/1rTSaSFaO3HBYzYriV0PSWJhqaRCukaGg)
 - [305 期假日下午班](https://colab.research.google.com/drive/12xdMTVJwvIVwsMaUEFxpwanLpD1u-Fue)
 
