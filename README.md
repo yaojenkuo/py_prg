@@ -35,7 +35,7 @@
 - [起步走](01-getting-started.slides.html)
 - [資料型態](02-data-types.slides.html)
 - [流程控制：條件判斷](03-control-flows-conditionals.slides.html)
-- [流程控制：while 迴圈](http://yaojenkuo.io/py_prg/while_loop.slides.html)
+- [流程控制：while 迴圈](04-control-flow-while.slides.html)
 - [資料結構](http://yaojenkuo.io/py_prg/data_structures_list_tuple.slides.html)
 - [流程控制：for 迴圈](http://yaojenkuo.io/py_prg/for_loop.slides.html)
 - [程式封裝：自訂函數](http://yaojenkuo.io/py_prg/function_adv.slides.html)
