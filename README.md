@@ -54,7 +54,7 @@
 
 ### 近期課程錄影清單
 
-- [312 期 Python 程式設計（三六夜間班）]()
+- [312 期 Python 程式設計（三六夜間班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuWWndX_ppiDG8KMv6Jft7hm)
 - [311 期 Python 程式設計（三六夜間班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuWBeasiZChHnwKRwJQjYne9)
 - [306 期 Python 程式設計（假日下午班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuXes1owy7snsOe36TxABn3M)
 - [305 期 Python 程式設計（假日下午班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuXx0FR6sns7q4IShp05pnVw)
