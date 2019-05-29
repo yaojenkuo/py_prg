@@ -24,7 +24,7 @@
 - 作業每題為 20 分，繳交 4 題以上即可獲得證書
 - 繳交期限為課程結束後一週內，如遇長假期（春節、連假）則順延
 
-- [312 期作業上傳表單]()
+- [312 期作業上傳表單](https://forms.gle/ydPj3jo7gHqUWfp9A)
 - [311 期作業上傳表單](https://forms.gle/CJbJJfCp4ngH7Bda7)
 - [306 期作業上傳表單](https://goo.gl/forms/y9aFoEk1HU4vUGdo1)
 - [305 期作業上傳表單](https://goo.gl/forms/ys2SDJ0LhBH6Fhw32)
