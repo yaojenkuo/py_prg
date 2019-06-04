@@ -37,7 +37,7 @@
 - [流程控制：條件判斷](03-control-flow-conditionals.slides.html)
 - [流程控制：while 迴圈](04-control-flow-while.slides.html)
 - [資料結構](05-data-structures.slides.html)
-- [流程控制：for 迴圈](http://yaojenkuo.io/py_prg/for_loop.slides.html)
+- [流程控制：for 迴圈](06-control-flow-for.slides.html)
 - [程式封裝：自訂函數](http://yaojenkuo.io/py_prg/function_adv.slides.html)
 - [程式封裝：自訂類別](https://yaojenkuo.github.io/py_prg/class.slides.html)
 - [程式封裝：自訂模組/套件](https://yaojenkuo.github.io/py_prg/modules.slides.html)
