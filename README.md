@@ -39,7 +39,7 @@
 - [資料結構](05-data-structures.slides.html)
 - [流程控制：for 迴圈](06-control-flow-for.slides.html)
 - [程式封裝：自訂函數](07-code-packaging-functions.slides.html)
-- [程式封裝：自訂類別](https://yaojenkuo.github.io/py_prg/class.slides.html)
+- [程式封裝：自訂類別](08-code-packaging-classes.slides.html)
 - [程式封裝：自訂模組/套件](https://yaojenkuo.github.io/py_prg/modules.slides.html)
 - [Python 程式設計常用技巧](10-python-programming-skills.slides.html)
 - [應用：網頁爬蟲](https://yaojenkuo.github.io/py_prg/static_scraper.slides.html)
