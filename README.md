@@ -41,7 +41,6 @@
 - [程式封裝：自訂函數](07-code-packaging-functions.slides.html)
 - [程式封裝：自訂類別](08-code-packaging-classes.slides.html)
 - [程式封裝：自訂模組/套件](09-code-packaging-modules-and-libraries.slides.html)
-- [Python 程式設計常用技巧](10-python-programming-skills.slides.html)
 - [應用：網頁爬蟲](https://yaojenkuo.io/python_4_ds/03-web-scraping-101.slides.html)
 
 ### 延伸閱讀
