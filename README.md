@@ -57,7 +57,7 @@ Contact me: <tony@kyosei.ai>
 
 ### 近期課程錄影清單
 
-- [314 期 Python 程式設計（暑期密集班）]()
+- [314 期 Python 程式設計（暑期密集班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuVJS5NBAO5veLWB_5qVo4jS)
 - [312 期 Python 程式設計（三六夜間班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuWWndX_ppiDG8KMv6Jft7hm)
 - [311 期 Python 程式設計（三六夜間班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuWBeasiZChHnwKRwJQjYne9)
 - [306 期 Python 程式設計（假日下午班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuXes1owy7snsOe36TxABn3M)
