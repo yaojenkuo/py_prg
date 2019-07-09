@@ -13301,8 +13301,8 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="if-&#21028;&#26039;&#30340;-Code-Block"><code>if</code> &#21028;&#26039;&#30340; Code Block<a class="anchor-link" href="#if-&#21028;&#26039;&#30340;-Code-Block">&#182;</a></h2><p>注意 <code>:</code> 與縮排。</p>
-<div class="highlight"><pre><span></span><span class="k">if</span> <span class="err">布林</span><span class="p">:</span>
-    <span class="c1"># 布林被評估為 True 時候執行縮排的程式碼</span>
+<div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">EXPR</span><span class="p">:</span>
+    <span class="c1"># EXPR 被評估為 True 時候執行縮排的程式碼</span>
 </pre></div>
 
 </div>
@@ -13325,7 +13325,7 @@ a.anchor-link {
 <span class="n">movie_rating</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入電影評分：&quot;</span><span class="p">)</span>
 <span class="n">movie_rating</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">movie_rating</span><span class="p">)</span>
 
-<span class="k">if</span> <span class="n">movie_rating</span> <span class="o">&gt;=</span> <span class="mi">7</span><span class="p">:</span>
+<span class="k">if</span> <span class="n">movie_rating</span> <span class="o">&gt;</span> <span class="mi">7</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">的評分為 </span><span class="si">{}</span><span class="s2"> 分值得去看！&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">movie_title</span><span class="p">,</span> <span class="n">movie_rating</span><span class="p">))</span>
 </pre></div>
 
@@ -13344,7 +13344,7 @@ a.anchor-link {
 <span class="n">movie_rating</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入電影評分：&quot;</span><span class="p">)</span>
 <span class="n">movie_rating</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">movie_rating</span><span class="p">)</span>
 
-<span class="k">if</span> <span class="n">movie_rating</span> <span class="o">&gt;=</span> <span class="mi">7</span><span class="p">:</span>
+<span class="k">if</span> <span class="n">movie_rating</span> <span class="o">&gt;</span> <span class="mi">7</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">的評分為 </span><span class="si">{}</span><span class="s2"> 分值得去看！&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">movie_title</span><span class="p">,</span> <span class="n">movie_rating</span><span class="p">))</span>
 </pre></div>
 
@@ -13364,10 +13364,10 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="else-&#21028;&#26039;&#30340;-Code-Block"><code>else</code> &#21028;&#26039;&#30340; Code Block<a class="anchor-link" href="#else-&#21028;&#26039;&#30340;-Code-Block">&#182;</a></h2><p>注意 <code>:</code> 與縮排。</p>
-<div class="highlight"><pre><span></span><span class="k">if</span> <span class="err">布林</span><span class="p">:</span>
-    <span class="c1"># 布林被評估為 True 時候執行縮排的程式碼</span>
+<div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">EXPR</span><span class="p">:</span>
+    <span class="c1"># EXPR 被評估為 True 時候執行縮排的程式碼</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="c1"># 布林被評估為 False 時候執行縮排的程式碼</span>
+    <span class="c1"># EXPR 被評估為 False 時候執行縮排的程式碼</span>
 </pre></div>
 
 </div>
@@ -13383,7 +13383,7 @@ a.anchor-link {
 <span class="n">movie_rating</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入電影評分：&quot;</span><span class="p">)</span>
 <span class="n">movie_rating</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">movie_rating</span><span class="p">)</span>
 
-<span class="k">if</span> <span class="n">movie_rating</span> <span class="o">&gt;=</span> <span class="mi">7</span><span class="p">:</span>
+<span class="k">if</span> <span class="n">movie_rating</span> <span class="o">&gt;</span> <span class="mi">7</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">的評分為 </span><span class="si">{}</span><span class="s2"> 分值得去看！&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">movie_title</span><span class="p">,</span> <span class="n">movie_rating</span><span class="p">))</span>
 <span class="k">else</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">的評分為 </span><span class="si">{}</span><span class="s2"> 分看了會後悔！&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">movie_title</span><span class="p">,</span> <span class="n">movie_rating</span><span class="p">))</span>
@@ -13404,7 +13404,7 @@ a.anchor-link {
 <span class="n">movie_rating</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入電影評分：&quot;</span><span class="p">)</span>
 <span class="n">movie_rating</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">movie_rating</span><span class="p">)</span>
 
-<span class="k">if</span> <span class="n">movie_rating</span> <span class="o">&gt;=</span> <span class="mi">7</span><span class="p">:</span>
+<span class="k">if</span> <span class="n">movie_rating</span> <span class="o">&gt;</span> <span class="mi">7</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">的評分為 </span><span class="si">{}</span><span class="s2"> 分值得去看！&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">movie_title</span><span class="p">,</span> <span class="n">movie_rating</span><span class="p">))</span>
 <span class="k">else</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">的評分為 </span><span class="si">{}</span><span class="s2"> 分看了會後悔！&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">movie_title</span><span class="p">,</span> <span class="n">movie_rating</span><span class="p">))</span>
@@ -13426,12 +13426,12 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="elif-&#21028;&#26039;&#30340;-Code-Block"><code>elif</code> &#21028;&#26039;&#30340; Code Block<a class="anchor-link" href="#elif-&#21028;&#26039;&#30340;-Code-Block">&#182;</a></h2><p>注意 <code>:</code> 與縮排。</p>
-<div class="highlight"><pre><span></span><span class="k">if</span> <span class="err">布林一</span><span class="p">:</span>
-    <span class="c1"># 布林一被評估為 True 時候執行縮排的程式碼</span>
-<span class="k">elif</span> <span class="err">布林二</span><span class="p">:</span>
-    <span class="c1"># 布林二被評估為 True 時候執行縮排的程式碼</span>
+<div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">EXPR_1</span><span class="p">:</span>
+    <span class="c1"># EXPR_1 被評估為 True 時候執行縮排的程式碼</span>
+<span class="k">elif</span> <span class="n">EXPR_2</span><span class="p">:</span>
+    <span class="c1"># EXPR_2 被評估為 True 時候執行縮排的程式碼</span>
 <span class="k">else</span><span class="p">:</span>
-    <span class="c1"># 布林一與布林二都被評估為 False 時候執行縮排的程式碼</span>
+    <span class="c1"># EXPR_1 與 EXPR_2 都被評估為 False 時候執行縮排的程式碼</span>
 </pre></div>
 
 </div>
@@ -13447,9 +13447,9 @@ a.anchor-link {
 <span class="n">movie_rating</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入電影評分：&quot;</span><span class="p">)</span>
 <span class="n">movie_rating</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">movie_rating</span><span class="p">)</span>
 
-<span class="k">if</span> <span class="n">movie_rating</span> <span class="o">&gt;=</span> <span class="mi">8</span><span class="p">:</span>
+<span class="k">if</span> <span class="n">movie_rating</span> <span class="o">&gt;</span> <span class="mi">8</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">的評分為 </span><span class="si">{}</span><span class="s2"> 分要去電影院看！&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">movie_title</span><span class="p">,</span> <span class="n">movie_rating</span><span class="p">))</span>
-<span class="k">elif</span> <span class="n">movie_rating</span> <span class="o">&gt;=</span> <span class="mi">7</span> <span class="ow">and</span> <span class="n">movie_rating</span> <span class="o">&lt;</span> <span class="mi">8</span><span class="p">:</span>
+<span class="k">elif</span> <span class="n">movie_rating</span> <span class="o">&gt;</span> <span class="mi">7</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">的評分為 </span><span class="si">{}</span><span class="s2"> 分值得一看！&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">movie_title</span><span class="p">,</span> <span class="n">movie_rating</span><span class="p">))</span>
 <span class="k">else</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">的評分為 </span><span class="si">{}</span><span class="s2"> 分看了會後悔！&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">movie_title</span><span class="p">,</span> <span class="n">movie_rating</span><span class="p">))</span>
@@ -13470,9 +13470,9 @@ a.anchor-link {
 <span class="n">movie_rating</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入電影評分：&quot;</span><span class="p">)</span>
 <span class="n">movie_rating</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">movie_rating</span><span class="p">)</span>
 
-<span class="k">if</span> <span class="n">movie_rating</span> <span class="o">&gt;=</span> <span class="mi">8</span><span class="p">:</span>
+<span class="k">if</span> <span class="n">movie_rating</span> <span class="o">&gt;</span> <span class="mi">8</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">的評分為 </span><span class="si">{}</span><span class="s2"> 分要去電影院看！&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">movie_title</span><span class="p">,</span> <span class="n">movie_rating</span><span class="p">))</span>
-<span class="k">elif</span> <span class="n">movie_rating</span> <span class="o">&gt;=</span> <span class="mi">7</span> <span class="ow">and</span> <span class="n">movie_rating</span> <span class="o">&lt;</span> <span class="mi">8</span><span class="p">:</span>
+<span class="k">elif</span> <span class="n">movie_rating</span> <span class="o">&gt;</span> <span class="mi">7</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">的評分為 </span><span class="si">{}</span><span class="s2"> 分值得一看！&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">movie_title</span><span class="p">,</span> <span class="n">movie_rating</span><span class="p">))</span>
 <span class="k">else</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">的評分為 </span><span class="si">{}</span><span class="s2"> 分看了會後悔！&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">movie_title</span><span class="p">,</span> <span class="n">movie_rating</span><span class="p">))</span>
@@ -13493,9 +13493,9 @@ a.anchor-link {
 <span class="n">movie_rating</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入電影評分：&quot;</span><span class="p">)</span>
 <span class="n">movie_rating</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">movie_rating</span><span class="p">)</span>
 
-<span class="k">if</span> <span class="n">movie_rating</span> <span class="o">&gt;=</span> <span class="mi">8</span><span class="p">:</span>
+<span class="k">if</span> <span class="n">movie_rating</span> <span class="o">&gt;</span> <span class="mi">8</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">的評分為 </span><span class="si">{}</span><span class="s2"> 分要去電影院看！&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">movie_title</span><span class="p">,</span> <span class="n">movie_rating</span><span class="p">))</span>
-<span class="k">elif</span> <span class="n">movie_rating</span> <span class="o">&gt;=</span> <span class="mi">7</span> <span class="ow">and</span> <span class="n">movie_rating</span> <span class="o">&lt;</span> <span class="mi">8</span><span class="p">:</span>
+<span class="k">elif</span> <span class="n">movie_rating</span> <span class="o">&gt;</span> <span class="mi">7</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">的評分為 </span><span class="si">{}</span><span class="s2"> 分值得一看！&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">movie_title</span><span class="p">,</span> <span class="n">movie_rating</span><span class="p">))</span>
 <span class="k">else</span><span class="p">:</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">的評分為 </span><span class="si">{}</span><span class="s2"> 分看了會後悔！&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">movie_title</span><span class="p">,</span> <span class="n">movie_rating</span><span class="p">))</span>
@@ -13556,25 +13556,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="MECE-&#27861;&#21063;">MECE &#27861;&#21063;<a class="anchor-link" href="#MECE-&#27861;&#21063;">&#182;</a></h2><ul>
-<li>Mutually Exclusive, Collectively Exhaustive</li>
-<li>互斥而周延</li>
-</ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#38568;&#22530;&#32244;&#32722;">&#38568;&#22530;&#32244;&#32722;<a class="anchor-link" href="#&#38568;&#22530;&#32244;&#32722;">&#182;</a></h2>
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#21028;&#26039;&#22855;&#25976;&#20598;&#25976;">&#21028;&#26039;&#22855;&#25976;&#20598;&#25976;<a class="anchor-link" href="#&#21028;&#26039;&#22855;&#25976;&#20598;&#25976;">&#182;</a></h2>
+<h2 id="&#38568;&#22530;&#32244;&#32722;&#65306;&#21028;&#26039;&#22855;&#25976;&#20598;&#25976;">&#38568;&#22530;&#32244;&#32722;&#65306;&#21028;&#26039;&#22855;&#25976;&#20598;&#25976;<a class="anchor-link" href="#&#38568;&#22530;&#32244;&#32722;&#65306;&#21028;&#26039;&#22855;&#25976;&#20598;&#25976;">&#182;</a></h2>
 <pre><code>## 請輸入一個正整數：5566
 ## 5566 是偶數
 ## 請輸入一個正整數：87
@@ -13583,28 +13565,10 @@ a.anchor-link {
 </div>
 </div>
 </div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">user_int</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入一個正整數：&quot;</span><span class="p">)</span>
-<span class="n">user_int</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">user_int</span><span class="p">)</span>
-<span class="k">if</span> <span class="n">user_int</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2"> 是偶數&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">user_int</span><span class="p">))</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2"> 是奇數&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">user_int</span><span class="p">))</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#21028;&#26039;-BMI-&#30340;&#39006;&#21029;&#27161;&#31844;">&#21028;&#26039; BMI &#30340;&#39006;&#21029;&#27161;&#31844;<a class="anchor-link" href="#&#21028;&#26039;-BMI-&#30340;&#39006;&#21029;&#27161;&#31844;">&#182;</a></h2><p>參考 <a href="https://en.wikipedia.org/wiki/Body_mass_index#/media/File:BMI_chart.svg">https://en.wikipedia.org/wiki/Body_mass_index#/media/File:BMI_chart.svg</a></p>
+<h2 id="&#38568;&#22530;&#32244;&#32722;&#65306;&#21028;&#26039;-BMI-&#30340;&#39006;&#21029;&#27161;&#31844;">&#38568;&#22530;&#32244;&#32722;&#65306;&#21028;&#26039; BMI &#30340;&#39006;&#21029;&#27161;&#31844;<a class="anchor-link" href="#&#38568;&#22530;&#32244;&#32722;&#65306;&#21028;&#26039;-BMI-&#30340;&#39006;&#21029;&#27161;&#31844;">&#182;</a></h2><p>參考 <a href="https://en.wikipedia.org/wiki/Body_mass_index#/media/File:BMI_chart.svg">https://en.wikipedia.org/wiki/Body_mass_index#/media/File:BMI_chart.svg</a></p>
 
 <pre><code>## 請輸入身高（公分）：200
 ## 請輸入體重（公斤）：80
@@ -13615,30 +13579,6 @@ a.anchor-link {
 
 </div>
 </div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">input_height</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入身高（公分）：&quot;</span><span class="p">))</span>
-<span class="n">input_weight</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入體重（公斤）：&quot;</span><span class="p">))</span>
-<span class="n">bmi</span> <span class="o">=</span> <span class="n">input_weight</span> <span class="o">/</span> <span class="p">(</span><span class="n">input_height</span><span class="o">*</span><span class="mf">0.01</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
-<span class="k">if</span> <span class="n">bmi</span> <span class="o">&lt;</span> <span class="mf">18.5</span><span class="p">:</span>
-    <span class="n">bmi_index</span> <span class="o">=</span> <span class="s2">&quot;Underweight&quot;</span>
-<span class="k">elif</span> <span class="n">bmi</span> <span class="o">&gt;</span> <span class="mi">30</span><span class="p">:</span>
-    <span class="n">bmi_index</span> <span class="o">=</span> <span class="s2">&quot;Obese&quot;</span>
-<span class="k">elif</span> <span class="n">bmi</span> <span class="o">&gt;=</span> <span class="mf">18.5</span> <span class="ow">and</span> <span class="n">bmi</span> <span class="o">&lt;</span> <span class="mi">25</span><span class="p">:</span>
-    <span class="n">bmi_index</span> <span class="o">=</span> <span class="s2">&quot;Normal weight&quot;</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="n">bmi_index</span> <span class="o">=</span> <span class="s2">&quot;Overweight&quot;</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;身高 </span><span class="si">{}</span><span class="s2"> 公分、體重 </span><span class="si">{}</span><span class="s2"> 公斤，是 </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">input_height</span><span class="p">,</span> <span class="n">input_weight</span><span class="p">,</span> <span class="n">bmi_index</span><span class="p">))</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
