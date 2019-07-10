@@ -13366,7 +13366,7 @@ a.anchor-link {
 <li>更新</li>
 </ul>
 <div class="highlight"><pre><span></span><span class="n">i</span> <span class="o">=</span> <span class="o">...</span> <span class="c1"># 重複的起始值</span>
-<span class="k">while</span> <span class="o">&lt;</span><span class="n">Boolean</span><span class="o">&gt;</span><span class="p">:</span> <span class="c1"># while 保留字、任務重複的運行條件</span>
+<span class="k">while</span> <span class="n">EXPR</span><span class="p">:</span> <span class="c1"># while 保留字、任務重複的運行條件</span>
     <span class="c1"># 縮排中編寫重複運行的程式</span>
     <span class="c1"># 更新</span>
 </pre></div>
@@ -13400,9 +13400,11 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#24120;&#35211;&#30340;&#36852;&#22280;&#20219;&#21209;&#19981;&#26371;&#21482;&#26159;-print()">&#24120;&#35211;&#30340;&#36852;&#22280;&#20219;&#21209;&#19981;&#26371;&#21482;&#26159; <code>print()</code><a class="anchor-link" href="#&#24120;&#35211;&#30340;&#36852;&#22280;&#20219;&#21209;&#19981;&#26371;&#21482;&#26159;-print()">&#182;</a></h2><ul>
+<h2 id="&#24120;&#35211;&#30340;&#36852;&#22280;&#20219;&#21209;">&#24120;&#35211;&#30340;&#36852;&#22280;&#20219;&#21209;<a class="anchor-link" href="#&#24120;&#35211;&#30340;&#36852;&#22280;&#20219;&#21209;">&#182;</a></h2><ul>
+<li><code>print()</code></li>
 <li>計數（Counter）</li>
 <li>加總（Summation）</li>
+<li>合併（Append），在資料結構中詳述</li>
 </ul>
 
 </div>
@@ -13486,17 +13488,10 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#38568;&#22530;&#32244;&#32722;">&#38568;&#22530;&#32244;&#32722;<a class="anchor-link" href="#&#38568;&#22530;&#32244;&#32722;">&#182;</a></h2>
+<h2 id="&#38568;&#22530;&#32244;&#32722;&#65306;&#21360;&#20986;&#20171;&#26044;-x-&#21040;-y-&#20043;&#38291;&#30340;&#22855;&#25976;&#65288;&#21253;&#21547;-x-&#33287;-y-&#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;">&#38568;&#22530;&#32244;&#32722;&#65306;&#21360;&#20986;&#20171;&#26044; x &#21040; y &#20043;&#38291;&#30340;&#22855;&#25976;&#65288;&#21253;&#21547; x &#33287; y &#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;<a class="anchor-link" href="#&#38568;&#22530;&#32244;&#32722;&#65306;&#21360;&#20986;&#20171;&#26044;-x-&#21040;-y-&#20043;&#38291;&#30340;&#22855;&#25976;&#65288;&#21253;&#21547;-x-&#33287;-y-&#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;">&#182;</a></h2>
 </div>
 </div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#21360;&#20986;&#20171;&#26044;-x-&#21040;-y-&#20043;&#38291;&#30340;&#22855;&#25976;&#65288;&#21253;&#21547;-x-&#33287;-y-&#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;">&#21360;&#20986;&#20171;&#26044; x &#21040; y &#20043;&#38291;&#30340;&#22855;&#25976;&#65288;&#21253;&#21547; x &#33287; y &#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;<a class="anchor-link" href="#&#21360;&#20986;&#20171;&#26044;-x-&#21040;-y-&#20043;&#38291;&#30340;&#22855;&#25976;&#65288;&#21253;&#21547;-x-&#33287;-y-&#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;">&#182;</a></h2>
 </div>
-</div>
-</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
@@ -13504,10 +13499,6 @@ a.anchor-link {
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入起始的正整數：&quot;</span><span class="p">))</span>
 <span class="n">y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入終止的正整數：&quot;</span><span class="p">))</span>
-<span class="k">while</span> <span class="n">x</span> <span class="o">&lt;=</span> <span class="n">y</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-    <span class="n">x</span> <span class="o">+=</span> <span class="mi">1</span>
 </pre></div>
 
     </div>
@@ -13518,60 +13509,156 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#25215;&#25509;&#19978;&#38988;&#65292;&#20171;&#26044;-x-&#21040;-y-&#20043;&#38291;&#30340;&#22855;&#25976;&#26377;&#24190;&#20491;&#65288;&#21253;&#21547;-x-&#33287;-y-&#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;">&#25215;&#25509;&#19978;&#38988;&#65292;&#20171;&#26044; x &#21040; y &#20043;&#38291;&#30340;&#22855;&#25976;&#26377;&#24190;&#20491;&#65288;&#21253;&#21547; x &#33287; y &#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;<a class="anchor-link" href="#&#25215;&#25509;&#19978;&#38988;&#65292;&#20171;&#26044;-x-&#21040;-y-&#20043;&#38291;&#30340;&#22855;&#25976;&#26377;&#24190;&#20491;&#65288;&#21253;&#21547;-x-&#33287;-y-&#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;">&#182;</a></h2>
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入起始的正整數：&quot;</span><span class="p">))</span>
-<span class="n">y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入終止的正整數：&quot;</span><span class="p">))</span>
-<span class="n">odd_cnt</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">while</span> <span class="n">x</span> <span class="o">&lt;=</span> <span class="n">y</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="n">odd_cnt</span> <span class="o">+=</span> <span class="mi">1</span>
-    <span class="n">x</span> <span class="o">+=</span> <span class="mi">1</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">odd_cnt</span><span class="p">)</span>
-</pre></div>
 
-    </div>
-</div>
-</div>
+<pre><code>## 5
+## 7
+## 9</code></pre>
 
+</div>
+</div>
 </div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#25215;&#25509;&#19978;&#38988;&#65292;&#20171;&#26044;-x-&#21040;-y-&#20043;&#38291;&#30340;&#22855;&#25976;&#21152;&#32317;&#28858;&#20309;&#65288;&#21253;&#21547;-x-&#33287;-y-&#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;">&#25215;&#25509;&#19978;&#38988;&#65292;&#20171;&#26044; x &#21040; y &#20043;&#38291;&#30340;&#22855;&#25976;&#21152;&#32317;&#28858;&#20309;&#65288;&#21253;&#21547; x &#33287; y &#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;<a class="anchor-link" href="#&#25215;&#25509;&#19978;&#38988;&#65292;&#20171;&#26044;-x-&#21040;-y-&#20043;&#38291;&#30340;&#22855;&#25976;&#21152;&#32317;&#28858;&#20309;&#65288;&#21253;&#21547;-x-&#33287;-y-&#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;">&#182;</a></h2>
+<h2 id="&#38568;&#22530;&#32244;&#32722;&#65306;&#25215;&#25509;&#19978;&#38988;&#65292;&#20171;&#26044;-x-&#21040;-y-&#20043;&#38291;&#30340;&#22855;&#25976;&#26377;&#24190;&#20491;&#65288;&#21253;&#21547;-x-&#33287;-y-&#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;">&#38568;&#22530;&#32244;&#32722;&#65306;&#25215;&#25509;&#19978;&#38988;&#65292;&#20171;&#26044; x &#21040; y &#20043;&#38291;&#30340;&#22855;&#25976;&#26377;&#24190;&#20491;&#65288;&#21253;&#21547; x &#33287; y &#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;<a class="anchor-link" href="#&#38568;&#22530;&#32244;&#32722;&#65306;&#25215;&#25509;&#19978;&#38988;&#65292;&#20171;&#26044;-x-&#21040;-y-&#20043;&#38291;&#30340;&#22855;&#25976;&#26377;&#24190;&#20491;&#65288;&#21253;&#21547;-x-&#33287;-y-&#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;">&#182;</a></h2>
 </div>
 </div>
-</div></section><section>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入起始的正整數：&quot;</span><span class="p">))</span>
 <span class="n">y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入終止的正整數：&quot;</span><span class="p">))</span>
-<span class="n">odd_cnt</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="n">odd_summation</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">while</span> <span class="n">x</span> <span class="o">&lt;=</span> <span class="n">y</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="n">odd_cnt</span> <span class="o">+=</span> <span class="mi">1</span>
-        <span class="n">odd_summation</span> <span class="o">+=</span> <span class="n">x</span>
-    <span class="n">x</span> <span class="o">+=</span> <span class="mi">1</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">odd_cnt</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">odd_summation</span><span class="p">)</span>
 </pre></div>
 
     </div>
 </div>
 </div>
 
-</div></section><section>
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>請輸入起始的正整數：5
+請輸入終止的正整數：20
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">odd_cnt</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>8
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#38568;&#22530;&#32244;&#32722;&#65306;&#25215;&#25509;&#19978;&#38988;&#65292;&#20171;&#26044;-x-&#21040;-y-&#20043;&#38291;&#30340;&#22855;&#25976;&#21152;&#32317;&#28858;&#20309;&#65288;&#21253;&#21547;-x-&#33287;-y-&#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;">&#38568;&#22530;&#32244;&#32722;&#65306;&#25215;&#25509;&#19978;&#38988;&#65292;&#20171;&#26044; x &#21040; y &#20043;&#38291;&#30340;&#22855;&#25976;&#21152;&#32317;&#28858;&#20309;&#65288;&#21253;&#21547; x &#33287; y &#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;<a class="anchor-link" href="#&#38568;&#22530;&#32244;&#32722;&#65306;&#25215;&#25509;&#19978;&#38988;&#65292;&#20171;&#26044;-x-&#21040;-y-&#20043;&#38291;&#30340;&#22855;&#25976;&#21152;&#32317;&#28858;&#20309;&#65288;&#21253;&#21547;-x-&#33287;-y-&#20551;&#22914;&#23427;&#20497;&#26159;&#22855;&#25976;&#65289;">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入起始的正整數：&quot;</span><span class="p">))</span>
+<span class="n">y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;請輸入終止的正整數：&quot;</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>請輸入起始的正整數：5
+請輸入終止的正整數：20
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">odd_summation</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>96
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -13680,6 +13767,33 @@ a.anchor-link {
 </div>
 </div>
 
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#30053;&#36942;&#26576;&#27425;&#36845;&#20195;&#65306;continue">&#30053;&#36942;&#26576;&#27425;&#36845;&#20195;&#65306;<code>continue</code><a class="anchor-link" href="#&#30053;&#36942;&#26576;&#27425;&#36845;&#20195;&#65306;continue">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># no 4th floor in some buildings</span>
+<span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span>
+        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">continue</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -13691,7 +13805,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Fizz-Buzz-with-while">Fizz-Buzz with <code>while</code><a class="anchor-link" href="#Fizz-Buzz-with-while">&#182;</a></h2><ul>
+<h2 id="&#20316;&#26989;&#65306;Fizz-Buzz-with-while">&#20316;&#26989;&#65306;Fizz-Buzz with <code>while</code><a class="anchor-link" href="#&#20316;&#26989;&#65306;Fizz-Buzz-with-while">&#182;</a></h2><ul>
 <li>從 1 印到 100</li>
 <li>如果是 3 的倍數印出 "Fizz"</li>
 <li>如果是 5 的倍數印出 "Buzz"</li>
@@ -13725,7 +13839,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#20171;&#26044;-x-&#21040;-y-&#20043;&#38291;&#30340;&#36074;&#25976;&#20491;&#25976;&#28858;&#20309;&#65288;&#21253;&#21547;-x-&#33287;-y-&#20551;&#22914;&#23427;&#20497;&#26159;&#36074;&#25976;&#65289;">&#20171;&#26044; x &#21040; y &#20043;&#38291;&#30340;&#36074;&#25976;&#20491;&#25976;&#28858;&#20309;&#65288;&#21253;&#21547; x &#33287; y &#20551;&#22914;&#23427;&#20497;&#26159;&#36074;&#25976;&#65289;<a class="anchor-link" href="#&#20171;&#26044;-x-&#21040;-y-&#20043;&#38291;&#30340;&#36074;&#25976;&#20491;&#25976;&#28858;&#20309;&#65288;&#21253;&#21547;-x-&#33287;-y-&#20551;&#22914;&#23427;&#20497;&#26159;&#36074;&#25976;&#65289;">&#182;</a></h2>
+<h2 id="&#20316;&#26989;&#65306;&#20171;&#26044;-x-&#21040;-y-&#20043;&#38291;&#30340;&#36074;&#25976;&#20491;&#25976;&#28858;&#20309;&#65288;&#21253;&#21547;-x-&#33287;-y-&#20551;&#22914;&#23427;&#20497;&#26159;&#36074;&#25976;&#65289;">&#20316;&#26989;&#65306;&#20171;&#26044; x &#21040; y &#20043;&#38291;&#30340;&#36074;&#25976;&#20491;&#25976;&#28858;&#20309;&#65288;&#21253;&#21547; x &#33287; y &#20551;&#22914;&#23427;&#20497;&#26159;&#36074;&#25976;&#65289;<a class="anchor-link" href="#&#20316;&#26989;&#65306;&#20171;&#26044;-x-&#21040;-y-&#20043;&#38291;&#30340;&#36074;&#25976;&#20491;&#25976;&#28858;&#20309;&#65288;&#21253;&#21547;-x-&#33287;-y-&#20551;&#22914;&#23427;&#20497;&#26159;&#36074;&#25976;&#65289;">&#182;</a></h2>
 </div>
 </div>
 </div></section><section>
