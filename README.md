@@ -49,11 +49,12 @@ Contact me: <tony@kyosei.ai>
 
 ### 延伸閱讀
 
-- [DataCamp](https://www.datacamp.com/courses/tech:python?tap_a=5644-dce66f&tap_s=194899-1fb421)
-- [輕鬆學習 Python](https://medium.com/datainpoint/python-essentials/home)
-- [進擊的資料科學](https://www.datainpoint.com/data-science-in-action/)
 - [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/)
 - [精通 Python：運用簡單的套件進行現代運算](https://www.books.com.tw/products/0010690075)
+- [Python資料科學學習手冊](https://www.books.com.tw/products/0010774364)
+- [進擊的資料科學](https://www.books.com.tw/products/0010827812)
+- [進擊的資料科學：網頁版](https://www.datainpoint.com/data-science-in-action/)
+- [DataCamp](https://www.datacamp.com/courses/tech:python?tap_a=5644-dce66f&tap_s=194899-1fb421)
 
 ### 近期課程錄影清單
 
