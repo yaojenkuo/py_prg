@@ -28,7 +28,7 @@ Contact me: <tony@kyosei.ai>
 - 作業每題為 20 分，繳交 4 題以上即可獲得證書
 - 繳交期限為課程結束後一週內，如遇長假期（春節、連假）則順延
 
-- [319 期作業上傳表單]()
+- [319 期作業上傳表單](https://forms.gle/9o7RxYDq4CJnvPqC6)
 - [314 期作業上傳表單](https://forms.gle/rM1NDuv7toEx5zM69)
 - [312 期作業上傳表單](https://forms.gle/ydPj3jo7gHqUWfp9A)
 - [311 期作業上傳表單](https://forms.gle/CJbJJfCp4ngH7Bda7)
@@ -60,7 +60,7 @@ Contact me: <tony@kyosei.ai>
 
 ### 近期課程錄影清單
 
-- [319 期 Python 程式設計（三六夜間班）]()
+- [319 期 Python 程式設計（三六夜間班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuWd2Lcz-l2Et6voMD4_Ab3N)
 - [314 期 Python 程式設計（暑期密集班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuVJS5NBAO5veLWB_5qVo4jS)
 - [312 期 Python 程式設計（三六夜間班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuWWndX_ppiDG8KMv6Jft7hm)
 - [311 期 Python 程式設計（三六夜間班）](https://www.youtube.com/playlist?list=PLEq7iw5uOtuWBeasiZChHnwKRwJQjYne9)
