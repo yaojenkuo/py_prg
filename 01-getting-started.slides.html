@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,7 +36,7 @@ if( window.location.search.match( /print-pdf/gi ) ) {
 
 <!-- Loading the mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -13069,45 +13068,6 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
-<style type="text/css">
-    
-/* Temporary definitions which will become obsolete with Notebook release 5.0 */
-.ansi-black-fg { color: #3E424D; }
-.ansi-black-bg { background-color: #3E424D; }
-.ansi-black-intense-fg { color: #282C36; }
-.ansi-black-intense-bg { background-color: #282C36; }
-.ansi-red-fg { color: #E75C58; }
-.ansi-red-bg { background-color: #E75C58; }
-.ansi-red-intense-fg { color: #B22B31; }
-.ansi-red-intense-bg { background-color: #B22B31; }
-.ansi-green-fg { color: #00A250; }
-.ansi-green-bg { background-color: #00A250; }
-.ansi-green-intense-fg { color: #007427; }
-.ansi-green-intense-bg { background-color: #007427; }
-.ansi-yellow-fg { color: #DDB62B; }
-.ansi-yellow-bg { background-color: #DDB62B; }
-.ansi-yellow-intense-fg { color: #B27D12; }
-.ansi-yellow-intense-bg { background-color: #B27D12; }
-.ansi-blue-fg { color: #208FFB; }
-.ansi-blue-bg { background-color: #208FFB; }
-.ansi-blue-intense-fg { color: #0065CA; }
-.ansi-blue-intense-bg { background-color: #0065CA; }
-.ansi-magenta-fg { color: #D160C4; }
-.ansi-magenta-bg { background-color: #D160C4; }
-.ansi-magenta-intense-fg { color: #A03196; }
-.ansi-magenta-intense-bg { background-color: #A03196; }
-.ansi-cyan-fg { color: #60C6C8; }
-.ansi-cyan-bg { background-color: #60C6C8; }
-.ansi-cyan-intense-fg { color: #258F8F; }
-.ansi-cyan-intense-bg { background-color: #258F8F; }
-.ansi-white-fg { color: #C5C1B4; }
-.ansi-white-bg { background-color: #C5C1B4; }
-.ansi-white-intense-fg { color: #A1A6B2; }
-.ansi-white-intense-bg { background-color: #A1A6B2; }
-
-.ansi-bold { font-weight: bold; }
-
-    </style>
 
 
 <style type="text/css">
@@ -13265,6 +13225,7 @@ a.anchor-link {
 <li>關於 Python</li>
 <li>建立開發環境</li>
 <li>執行第一個 Python 程式</li>
+<li>隨堂練習</li>
 </ul>
 
 </div>
@@ -13313,7 +13274,7 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#21040;&#24213;&#26377;&#22810;&#21463;&#27489;&#36814;">&#21040;&#24213;&#26377;&#22810;&#21463;&#27489;&#36814;<a class="anchor-link" href="#&#21040;&#24213;&#26377;&#22810;&#21463;&#27489;&#36814;">&#182;</a></h2><ul>
-<li><a href="https://spectrum.ieee.org/at-work/innovation/the-2018-top-programming-languages">IEEE</a></li>
+<li><a href="https://spectrum.ieee.org/computing/software/the-top-programming-languages-2019">IEEE</a></li>
 <li><a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a></li>
 <li><a href="https://insights.stackoverflow.com/trends?tags=java%2Cc%2Cc%2B%2B%2Cpython%2Cc%23%2Cjavascript%2Cphp">StackoverFlow Trends</a></li>
 <li><a href="https://www.economist.com/graphic-detail/2018/07/26/python-is-becoming-the-worlds-most-popular-coding-language">The Economist</a></li>
@@ -13332,20 +13293,9 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#26681;&#25818;&#20351;&#29992;&#32773;&#29376;&#24907;&#27770;&#23450;">&#26681;&#25818;&#20351;&#29992;&#32773;&#29376;&#24907;&#27770;&#23450;<a class="anchor-link" href="#&#26681;&#25818;&#20351;&#29992;&#32773;&#29376;&#24907;&#27770;&#23450;">&#182;</a></h2><ul>
-<li>Naive Users<ul>
+<h2 id="&#26681;&#25818;&#20351;&#29992;&#32773;&#21916;&#22909;&#27770;&#23450;">&#26681;&#25818;&#20351;&#29992;&#32773;&#21916;&#22909;&#27770;&#23450;<a class="anchor-link" href="#&#26681;&#25818;&#20351;&#29992;&#32773;&#21916;&#22909;&#27770;&#23450;">&#182;</a></h2><ul>
 <li>在瀏覽器使用 Google Colaboratory</li>
-<li>在本機端使用 Anaconda</li>
-</ul>
-</li>
-<li>Power Users<ul>
-<li>Miniconda</li>
-</ul>
-</li>
-<li>Geek<ul>
-<li>Python Interpreter + Text Editor / IDE</li>
-</ul>
-</li>
+<li>在本機端使用 Jupyter Notebook / Visual Studio Code</li>
 </ul>
 
 </div>
@@ -13354,9 +13304,9 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#36889;&#38272;&#35506;&#21463;&#30526;&#26159;&#21451;&#21892;&#30340;&#20351;&#29992;&#32773;">&#36889;&#38272;&#35506;&#21463;&#30526;&#26159;&#21451;&#21892;&#30340;&#20351;&#29992;&#32773;<a class="anchor-link" href="#&#36889;&#38272;&#35506;&#21463;&#30526;&#26159;&#21451;&#21892;&#30340;&#20351;&#29992;&#32773;">&#182;</a></h2><ul>
-<li>在瀏覽器使用 Google Colaboratory</li>
-<li>在本機端使用 Anaconda</li>
+<h2 id="&#26681;&#25818;&#23560;&#26696;&#20219;&#21209;&#27770;&#23450;">&#26681;&#25818;&#23560;&#26696;&#20219;&#21209;&#27770;&#23450;<a class="anchor-link" href="#&#26681;&#25818;&#23560;&#26696;&#20219;&#21209;&#27770;&#23450;">&#182;</a></h2><ul>
+<li>資料科學：Jupyter Notebook</li>
+<li>軟體開發：Visual Studio Code</li>
 </ul>
 
 </div>
@@ -13366,12 +13316,8 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#22312;&#28687;&#35261;&#22120;&#20351;&#29992;-Google-Colaboratory">&#22312;&#28687;&#35261;&#22120;&#20351;&#29992; Google Colaboratory<a class="anchor-link" href="#&#22312;&#28687;&#35261;&#22120;&#20351;&#29992;-Google-Colaboratory">&#182;</a></h2><ol>
-<li>登入 Google 帳號，開啟雲端硬碟</li>
-<li>點選「新增」</li>
-<li>點選「連結更多應用程式」</li>
-<li>搜尋「Colaboratory」</li>
-<li>點選「連結」</li>
-<li>新增 Google Colaboratory</li>
+<li>前往 <a href="https://colab.research.google.com/">https://colab.research.google.com/</a></li>
+<li>點選 NEW NOTEBOOK</li>
 <li>完成</li>
 </ol>
 
@@ -13381,7 +13327,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#22312;&#26412;&#27231;&#31471;&#20351;&#29992;-Anaconda">&#22312;&#26412;&#27231;&#31471;&#20351;&#29992; Anaconda<a class="anchor-link" href="#&#22312;&#26412;&#27231;&#31471;&#20351;&#29992;-Anaconda">&#182;</a></h2><ul>
+<h2 id="&#22312;&#26412;&#27231;&#31471;&#20351;&#29992;-Jupyter-Notebook-/-Visual-Studio-Code">&#22312;&#26412;&#27231;&#31471;&#20351;&#29992; Jupyter Notebook / Visual Studio Code<a class="anchor-link" href="#&#22312;&#26412;&#27231;&#31471;&#20351;&#29992;-Jupyter-Notebook-/-Visual-Studio-Code">&#182;</a></h2><ul>
 <li>先開啟「命令提示字元」輸入 <code>python --version</code> 檢查電腦是否已經有安裝 Python</li>
 <li>開啟「應用程式」檢查電腦中有哪些 Python 版本</li>
 </ul>
@@ -13439,7 +13385,6 @@ a.anchor-link {
 <li>依照提示點選我同意</li>
 <li><strong>勾選將 Anaconda 加入路徑變數後點選安裝</strong></li>
 <li>等待安裝完成</li>
-<li>如果沒有習慣使用的文字編輯器，可以安裝 VS Code，否則點選略過</li>
 </ol>
 
 </div>
@@ -13449,6 +13394,33 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#21246;&#36984;&#23559;-Anaconda-&#21152;&#20837;&#36335;&#24465;&#35722;&#25976;">&#21246;&#36984;&#23559; Anaconda &#21152;&#20837;&#36335;&#24465;&#35722;&#25976;<a class="anchor-link" href="#&#21246;&#36984;&#23559;-Anaconda-&#21152;&#20837;&#36335;&#24465;&#35722;&#25976;">&#182;</a></h2><p><img src="https://i.imgur.com/f9T9gkM.png" alt="Imgur"></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#23433;&#35037;-Visual-Studio-Code">&#23433;&#35037; Visual Studio Code<a class="anchor-link" href="#&#23433;&#35037;-Visual-Studio-Code">&#182;</a></h2><ul>
+<li>前往 <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></li>
+<li>點選下載</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Visual-Studio-Code-&#36319;-Visual-Studio-&#30340;&#24046;&#30064;">Visual Studio Code &#36319; Visual Studio &#30340;&#24046;&#30064;<a class="anchor-link" href="#Visual-Studio-Code-&#36319;-Visual-Studio-&#30340;&#24046;&#30064;">&#182;</a></h2><p>詳閱 <a href="https://stackoverflow.com/questions/30527522/what-are-the-differences-between-visual-studio-code-and-visual-studio">https://stackoverflow.com/questions/30527522/what-are-the-differences-between-visual-studio-code-and-visual-studio</a> 的討論</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#23433;&#35037;-VSCode-&#30340;-Python-&#22806;&#25499;">&#23433;&#35037; VSCode &#30340; Python &#22806;&#25499;<a class="anchor-link" href="#&#23433;&#35037;-VSCode-&#30340;-Python-&#22806;&#25499;">&#182;</a></h2><p><img src="https://i.imgur.com/cU3bQVZ.png?1" alt="Imgur"></p>
 
 </div>
 </div>
@@ -13463,7 +13435,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#21360;&#20986;&#21704;&#22217;&#19990;&#30028;">&#21360;&#20986;&#21704;&#22217;&#19990;&#30028;<a class="anchor-link" href="#&#21360;&#20986;&#21704;&#22217;&#19990;&#30028;">&#182;</a></h2><div class="highlight"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;Hello World!&quot;</span><span class="p">)</span>
+<h2 id="&#21360;&#20986;&#21704;&#22217;&#19990;&#30028;">&#21360;&#20986;&#21704;&#22217;&#19990;&#30028;<a class="anchor-link" href="#&#21360;&#20986;&#21704;&#22217;&#19990;&#30028;">&#182;</a></h2><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello World!&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13478,7 +13450,7 @@ a.anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello World!&quot;</span><span class="p">)</span>
@@ -13504,7 +13476,7 @@ a.anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello World!&quot;</span><span class="p">)</span>
@@ -13518,11 +13490,13 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#26412;&#27231;&#31471;&#65306;Conventional-Way">&#26412;&#27231;&#31471;&#65306;Conventional Way<a class="anchor-link" href="#&#26412;&#27231;&#31471;&#65306;Conventional-Way">&#182;</a></h2><ul>
-<li>在桌面建立一個檔案叫做 <code>hello.py</code></li>
+<h2 id="&#26412;&#27231;&#31471;&#65306;VSCode-Way">&#26412;&#27231;&#31471;&#65306;VSCode Way<a class="anchor-link" href="#&#26412;&#27231;&#31471;&#65306;VSCode-Way">&#182;</a></h2><ul>
+<li>在桌面建立一個資料夾叫做 <code>hello</code></li>
+<li>在資料夾中建立檔案 <code>hello.py</code></li>
 <li>在 <code>hello.py</code> 寫入 <code>print("Hello World!")</code></li>
-<li>在桌面開啟「命令提示字元」，輸入 <code>python hello.py</code></li>
+<li>點選 Run Python File in Terminal</li>
 </ul>
+<p><img src="https://i.imgur.com/v0Gmv6A.png?1" alt="Imgur"></p>
 
 </div>
 </div>
@@ -13545,9 +13519,9 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="The-Zen-of-Python">The Zen of Python<a class="anchor-link" href="#The-Zen-of-Python">&#182;</a></h2><ul>
-<li>在桌面建立一個檔案叫做 <code>zen.py</code></li>
+<li>在 hello 資料夾中建立一個檔案叫做 <code>zen.py</code></li>
 <li>在 <code>zen.py</code> 寫入 <code>import this</code></li>
-<li>在桌面開啟「命令提示字元」，輸入 <code>python zen.py</code></li>
+<li>點選 Run Python File in Terminal</li>
 </ul>
 
 </div>
@@ -13555,13 +13529,51 @@ a.anchor-link {
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">this</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren&#39;t special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you&#39;re Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it&#39;s a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let&#39;s do more of those!
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
